@@ -47,6 +47,41 @@ $jobs = [
         'salary' => 30000,
         'experience' => 2
     ],
+    [
+        'title' => 'PHP Developer',
+        'location' => 'Firenze',
+        'remote' => true,
+        'salary' => 38000,
+        'experience' => 4
+    ],
+    [
+        'title' => 'UX Writer',
+        'location' => 'Venezia',
+        'remote' => false,
+        'salary' => 26000,
+        'experience' => 1
+    ],
+    [
+        'title' => 'DevOps Engineer',
+        'location' => 'Genova',
+        'remote' => true,
+        'salary' => 55000,
+        'experience' => 6
+    ],
+    [
+        'title' => 'Social Media Manager',
+        'location' => 'Palermo',
+        'remote' => false,
+        'salary' => 24000,
+        'experience' => 2
+    ],
+    [
+        'title' => 'Full Stack Engineer',
+        'location' => 'Bari',
+        'remote' => true,
+        'salary' => 42000,
+        'experience' => 3
+    ]
 ];
 
 $selectedSalary = $_GET["salary"] ?? "";
